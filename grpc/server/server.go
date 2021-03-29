@@ -18,8 +18,8 @@ const (
 	defaultHealthPort = "8080"
 	defaultH2Port     = "8443"
 	defaultH2CPort    = "1110"
-	defaultTLSCrt     = "/etc/service-certs/tls.crt"
-	defaultTLSKey     = "/etc/service-certs/tls.key"
+	defaultTLSCrt     = "/etc/serving-cert/tls.crt"
+	defaultTLSKey     = "/etc/serving-cert/tls.key"
 )
 
 func lookupEnv(key, defaultVal string) string {
